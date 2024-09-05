@@ -309,3 +309,8 @@ body{
 .content.active {
   display: block;
 }
+
+.card-section{
+  display:flex;
+  justify-content: space-around;
+}
