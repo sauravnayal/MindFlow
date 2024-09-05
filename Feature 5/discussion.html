@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Responsive Sidebar</title>
+  <!-- Link Styles -->
+  <link rel="stylesheet" href="style.css">
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+  <div class="sidebar">
+    <div class="logo_details">
+      <i class='bx bxs-book-reader'></i>
+      <div class="logo_name">MindFlow</div>
+      <i class="bx bx-menu" id="btn"></i>
+    </div>
+    <ul class="nav-list">
+      <li>
+        <i class="bx bx-search"></i>
+        <input type="text" placeholder="Search...">
+         <span class="tooltip">Search</span>
+      </li>
+      <li>
+        <a href="../index.html" class="tab-link">
+          <i class="bx bx-grid-alt"></i>
+          <span class="link_name">Dashboard</span>
+        </a>
+        <span class="tooltip">Dashboard</span>
+      </li>
+      <li>
+        <a href="../Feature 2/readaloud.html" class="tab-link">
+          <i class='bx bxs-user-voice'></i>
+          <span class="link_name">Read Aloud</span>
+        </a>
+        <span class="tooltip">Read Aloud</span>
+      </li>
+      <li>
+          <a href="../Feature 7/dictionary.html" class="tab-link">
+            <i class='bx bxs-book-alt'></i>
+            <span class="link_name">Dictionary</span>
+          </a>
+          <span class="tooltip">Dictionary</span>
+        </li>
+      <li>
+        <a href="../Feature 3/Analysis.html" class="tab-link">
+          <i class="bx bx-pie-chart-alt-2"></i>
+          <span class="link_name">Analytics</span>
+        </a>
+        <span class="tooltip">Analytics</span>
+      </li>
+      <li>
+        <a href="../Feature 4/classes.html" class="tab-link">
+          <i class='bx bxs-calendar-exclamation'></i>
+          <span class="link_name">Classes</span>
+        </a>
+        <span class="tooltip">Classes</span>
+      </li>
+      <li>
+        <a href="discussion.html" class="tab-link" >
+          <i class="bx bx-chat"></i>
+          <span class="link_name">Discussion Forum</span>
+        </a>
+        <span class="tooltip">Discussion Forum</span>
+      </li>
+      <li>
+        <a href="../Feature 6/setting.html" class="tab-link">
+          <i class="bx bx-cog"></i>
+          <span class="link_name">Settings</span>
+        </a>
+        <span class="tooltip">Settings</span>
+      </li>
+      <li class="profile">
+        <div class="profile_details">
+          <img src="profile.jpg" alt="profile image">
+          <div class="profile_content">
+            <div class="name">Administrator</div>
+            <div class="designation">Admin</div>
+          </div>
+        </div>
+        <i class="bx bx-log-out" id="log_out"></i>
+      </li>
+    </ul>
+  </div>
+
+  <!-- Content Section -->
+  <section class="home-section">
+    <div class="content text active" id="classes">Discussion Forum</div>
+  </section>
+
+  <!-- Scripts -->
+  <script src="script.js"></script>
+</body>
+</html>
